@@ -1,0 +1,30 @@
+{% extends './base.html' %}
+{% load static %}
+
+{% block page_css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'home/css/home.css' %}">
+{% endblock page_css %} 
+
+{% block page_title %}
+    خانه | دبیرستان حمزه‌ سیدالشهدا 
+{% endblock page_title %}
+
+{% block page_content %}
+    <div class="container-fluid text-center">
+        <div class="clearfix">
+            <img src="../static/home/images/flat-school.png" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+            <h1 class="pt-5">
+                هنرستان حمزه سیدالشهدا
+            </h1>
+            <h4 class="p-3">
+                جهت ورود به سامانه آموزشی مجازی هنرستان بر روی دکمه زیر کلیک کنید و بعد به قسمت <b> ورود </b> بروید و <b> نام‌کاربری </b> و <b> رمزعبور </b> خود را وارد نمایید.
+                <br><br>
+                <i class="fas fa-chevron-down pe-2"></i>
+                <br><br>
+                <a class="btn" href="http://hamze14.ir/moodle">
+                    <span>ورود به سامانه آموزش مجازی</span>
+                </a>
+            </h4>
+        </div>
+    </div>
+{% endblock page_content %}

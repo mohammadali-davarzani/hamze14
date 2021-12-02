@@ -1,0 +1,8 @@
+.navbar-link {
+  color: #015249;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #57BC90;
+}

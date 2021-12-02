@@ -1,0 +1,38 @@
+
+.btn {
+    background-image: linear-gradient(to right, #77C9D4 0%, #57BC90 100%);
+    border-radius: 40px;
+    box-sizing: border-box;
+    color: #57BC90;
+    display: block;
+    font: 1.125rem 'Oswald', Arial, sans-serif; /*18*/
+    height: 80px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 274px;
+    z-index: 2;
+    margin-left: 12.5%;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn span {
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background .5s ease;
+    width: 100%;
+}
+
+.btn:hover span {
+    background: transparent;
+}
