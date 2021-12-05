@@ -1,3 +1,13 @@
+@font-face {
+    font-family: BTitrBd;
+    src: url("../fonts/BTitrBd.ttf");
+}
+
+@font-face {
+    font-family: ‌‌BNazaninBd;
+    src: url("../fonts/BNaznnBd.ttf");
+}  
+
 .gradient-custom {
 
     color: #FFFFFF;
@@ -7,4 +17,12 @@
     background: -webkit-linear-gradient(to right, #77C9D2, #57BC90);
   
     background: linear-gradient(to right, #77C9D2, #57BC90);
+}
+
+.title {
+    font-family: BTitrBd;
+}
+
+.description {
+    font-family: ‌‌BNazaninBd;
 }

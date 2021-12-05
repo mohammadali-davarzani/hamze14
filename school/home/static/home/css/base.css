@@ -1,6 +1,13 @@
+@font-face {
+  font-family: BTitrBd;
+  src: url("../fonts/BTitrBd.ttf");
+  font-weight: lighter;
+}
+
 .navbar-link {
   color: #015249;
   text-decoration: none;
+  font-family: BTitrBd;
 }
 
 .navbar-link:hover {

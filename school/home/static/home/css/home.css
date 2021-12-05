@@ -1,3 +1,20 @@
+@font-face {
+    font-family: BTitrBd;
+    src: url("../fonts/BTitrBd.ttf");
+}
+
+@font-face {
+    font-family: ‌‌BNazaninBd;
+    src: url("../fonts/BNaznnBd.ttf");
+}  
+
+.title {
+    font-family: BTitrBd;
+}
+
+.description {
+    font-family: ‌‌BNazaninBd;
+}
 
 .btn {
     background-image: linear-gradient(to right, #77C9D4 0%, #57BC90 100%);
@@ -23,6 +40,7 @@
 }
 
 .btn span {
+    font-family: BTitrBd;
     align-items: center;
     background: #FFFFFF;
     border-radius: 40px;
